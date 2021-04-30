@@ -1,4 +1,5 @@
-install pythia8
 install hepmc
 install lhapdf6
 install boost
+install zlib
+install pythia8
