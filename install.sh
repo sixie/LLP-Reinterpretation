@@ -14,7 +14,7 @@ wget https://launchpad.net/mg5amcnlo/2.0/2.9.x/+download/MG5_aMC_v2.9.3.tar.gz
 tar -zxvf MG5_aMC_v2.9.3.tar.gz
 rm MG5_aMC_v2.9.3.tar.gz
 cd MG5_aMC_v2_9_3
-./bin/mg5_aMC ${current_dir}/install_scripts/madgraph_install.dat
+python2 ./bin/mg5_aMC ${current_dir}/install_scripts/madgraph_install.dat
 cd $current_dir
 ############################
 #get and install delphes from CW
