@@ -1,0 +1,47 @@
+#************************************************************
+#*                        MadGraph 5                        *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*    The MadGraph Development Team - Please visit us at    *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadGraph 5                *
+#*                                                          *
+#*     run as ./bin/mg5  filename                           *
+#*                                                          *
+#************************************************************
+import model ALP_GG
+# Define multiparticle labels
+define p = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+
+define l- = e- mu-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+# Specify process(es) to run
+generate p p > ax j
+add process p p > ax j j
+add process p p > ax j j j
+# Output processes to MadEvent directory
+output alp_gg/alp_3j_pythia
+
+
+# This will create a directory PROC_$MODELNAME_$X
+# If you want to specify the path/name of the directory use
+# output PATH
+
+# To generate events, you can go to the created directory and
+
+# run ./bin/generate_events
+
+launch
+shower=Pythia8
+
