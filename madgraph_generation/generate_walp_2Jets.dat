@@ -45,4 +45,8 @@ output alp_wb/walp_2j_pythia
 
 launch
 shower=Pythia8
+set run_card pt_min_pdg = {9000005:50}
+set run_card use_syst = False
+set CWtil 1.0
+set CBtil 0.0
 
