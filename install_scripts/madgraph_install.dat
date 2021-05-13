@@ -1,5 +1,7 @@
 install hepmc
-install lhapdf6
 install boost
 install zlib
 install pythia8
+install lhapdf6
+
+exit()
