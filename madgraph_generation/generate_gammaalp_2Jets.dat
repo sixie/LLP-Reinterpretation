@@ -45,4 +45,36 @@ output alp_wb/gammaalp_2j_pythia
 
 launch
 shower=Pythia8
+set run_card pt_min_pdg = {9000005: 50.}
+set run_card use_syst = False
+set alppars 3 1.0
+set alppars 4 0.0
+
+#launch
+#shower=Pythia8
+#set run_card pt_min_pdg = {9000005: 50.}
+#set run_card use_syst = False
+#set alppars 3 0.0
+#set alppars 4 1.0
+
+#launch
+#shower=Pythia8
+#set run_card pt_min_pdg = {9000005: 50.}
+#set run_card use_syst = False
+#set alppars 3 1.0
+#set alppars 4 1.0
+
+#launch
+#shower=Pythia8
+#set run_card pt_min_pdg = {9000005: 50.}
+#set run_card use_syst = False
+#set alppars 3 0.2336991334218244
+#set alppars 4 -0.7663008665781756
+
+#launch
+#shower=Pythia8
+#set run_card pt_min_pdg = {9000005: 50.}
+#set run_card use_syst = False
+#set alppars 4 0.2336991334218244
+#set alppars 3 -0.7663008665781756
 
