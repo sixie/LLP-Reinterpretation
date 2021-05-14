@@ -44,6 +44,7 @@ output alp_gg/alp_3j_pythia
 
 launch
 shower=Pythia8
+set alppars 2 -0.125 # fix normalization to be the same as PBC
 set run_card pt_min_pdg = {9000005: 100.}
 set run_card use_syst = False
 
