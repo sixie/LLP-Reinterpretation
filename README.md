@@ -21,9 +21,11 @@ then the cmake3 thing
 then make.
 
 On Caltech Tier2 (login-1.hep.caltech.edu), have only the following lines in your .bash_profile setup:
+```
 export SCRAM_ARCH=slc7_amd64_gcc630
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 export X509_USER_PROXY=/storage/user/sixie/x509_proxy
+```
 
 Set up cmssw software stack:
 ```
