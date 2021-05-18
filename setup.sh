@@ -17,5 +17,3 @@ export PATH=${my_pythia8}/bin:${PATH}
 export PYTHIA8DATA=${my_pythia8}/share/Pythia8/xmldoc
 echo $PYTHIA8DATA
 export LD_LIBRARY_PATH=${top_dir}/MG5_aMC_v2_9_3/HEPTools/boost/lib:${LD_LIBRARY_PATH}
-
-
