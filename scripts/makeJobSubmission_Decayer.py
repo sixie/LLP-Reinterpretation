@@ -9,8 +9,8 @@ import sys
 from collections import OrderedDict
 
 outputDirectoryBase = "/storage/user/sixie/data/llp_gen"
-#Base_DIR = "/storage/user/sixie/LLP-Reinterpretation/"
-Base_DIR = "/afs/cern.ch/work/s/sixie/public/Generator/LLP-Reinterpretation"
+Base_DIR = "/storage/user/sixie/LLP-Reinterpretation/"
+#Base_DIR = "/afs/cern.ch/work/s/sixie/public/Generator/LLP-Reinterpretation"
 
 tarballfile = "/storage/user/sixie/LLP-Reinterpretation/tarball/Decayer_Delphes_tarball.tgz"
 
@@ -29,7 +29,7 @@ for datasetName in datasetList.keys():
     #####################################
     #create run script and executable
     #####################################
-    print ("cat " + Base_DIR + "/condor/" + datasetName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory + "\//'" +  " > " + Base_DIR + "/condor/" + datasetName + "/run_job.sh")
+    #print ("cat " + Base_DIR + "/condor/" + datasetName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory + "\//'" +  " > " + Base_DIR + "/condor/" + datasetName + "/run_job.sh")
     os.system("mkdir -p " + Base_DIR + "/condor/" + datasetName + "/log/" )
     os.system("cp " + Base_DIR + "/scripts/run_decayer_job_caltech_tier2.sh " +  Base_DIR + "/condor/" + datasetName + "/run_template.sh")
     os.system("cat " + Base_DIR + "/condor/" + datasetName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile.replace("/","\/") + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory.replace("/","\/") + "\//'" +  " > " + Base_DIR + "/condor/" + datasetName + "/run_job.sh")
