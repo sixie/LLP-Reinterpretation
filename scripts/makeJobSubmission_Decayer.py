@@ -15,7 +15,19 @@ Base_DIR = "/storage/user/sixie/LLP-Reinterpretation/"
 tarballfile = "/storage/user/sixie/LLP-Reinterpretation/tarball/Decayer_Delphes_tarball.tgz"
 
 datasetList = OrderedDict()
-datasetList['ggH_HtoS1S2_S1andS2_55GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_55dot0_AllToTauTau.txt",50]
+datasetList['ggH_HtoS1S2_S1andS2_55GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_55dot0_AllToTauTau.txt",500]
+#datasetList['ggH_HtoS1S2_S1andS2_1GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_1dot0.txt",500]
+#datasetList['ggH_HtoS1S2_S1andS2_15GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_15dot0.txt",500]
+#datasetList['ggH_HtoS1S2_S1andS2_25GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_25dot0.txt",500]
+#datasetList['ggH_HtoS1S2_S1andS2_40GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_40dot0.txt",500]
+#datasetList['ggH_HtoS1S2_S1andS2_7GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
+#datasetList['walp_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
+#datasetList['zalp_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
+#datasetList['gammaalp_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
+#datasetList['ggalp_3Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
+#datasetList['vv_vv'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
+
+
 
 
 for datasetName in datasetList.keys():
