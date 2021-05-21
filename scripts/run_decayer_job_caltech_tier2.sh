@@ -25,7 +25,8 @@ export SCRAM_ARCH=slc7_amd64_gcc700
 ###########################
 #get cmssw environment
 ###########################
-cmsrel CMSSW_9_4_20
+which scramv1
+scramv1 project CMSSW CMSSW_9_4_20
 cd CMSSW_9_4_20
 eval `scram runtime -sh`
 cd -
