@@ -60,7 +60,7 @@ cd -
 #save to output
 ###########################
 rm -v DecayerOutput_split_${jobNumber}.hepmc
-mv -v DelphesOutput_split_${jobNumber}.root outputDir/
-ls -ltr outputDir/
+mv -v DelphesOutput_split_${jobNumber}.root ${outputDir}/
+ls -ltr ${outputDir}/
 
 echo "Job completed"
