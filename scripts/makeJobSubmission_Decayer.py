@@ -77,7 +77,7 @@ RequestCpus = 1
 RequestDisk = 4
 +RunAsOwner = True
 +InteractiveUser = true
-+SingularityImage = "/cvmfs/singularity.opensciencegrid.org/cmssw/cms:rhel7-m202006
++SingularityImage = "/cvmfs/singularity.opensciencegrid.org/cmssw/cms:rhel7-m202006"
 +SingularityBindCVMFS = True
 
 
