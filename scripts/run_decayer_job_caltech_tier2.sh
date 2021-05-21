@@ -53,7 +53,7 @@ Pythia8Decayer_install/bin/Pythia8Decayer -c Pythia8Decayer_install/share/Pythia
 #run delphes
 ###########################
 cd Delphes
-./DelphesHepMC cards/delphes_card_CMS_CSCCluster_alp.tcl ./DelphesOutput_split_${jobNumber}.root ./DecayerOutput_split_${jobNumber}.hepmc
+./DelphesHepMC cards/delphes_card_CMS_CSCCluster_alp.tcl ../DelphesOutput_split_${jobNumber}.root ../DecayerOutput_split_${jobNumber}.hepmc
 cd -
 
 ###########################
