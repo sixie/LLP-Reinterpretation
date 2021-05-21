@@ -1,4 +1,4 @@
-B0;95;0c#************************************************************
+#************************************************************
 #*                        MadGraph 5                        *
 #*                                                          *
 #*                *                       *                 *
@@ -28,11 +28,11 @@ define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 define w = w+ w-
 # Specify process(es) to run
-generate p p > ax a
-add process p p > ax a j
-add process p p > ax a j j
+generate p p > ax z
+add process p p > ax z j
+add process p p > ax z j j
 # Output processes to MadEvent directory
-#output alp_wb/gammaalp_2j_pythia
+#output alp_wb/zalp_2j_pythia
 output llp_gen/madgraph_pythia
 
 # This will create a directory PROC_$MODELNAME_$X
@@ -45,37 +45,13 @@ output llp_gen/madgraph_pythia
 
 launch
 shower=Pythia8
-set nevents 500000
+set nevents 80000
+set mass 9000005 1.
+set run_card xqcut = 25.
 set run_card pt_min_pdg = {9000005: 50.}
+set run_card eta_max_pdg = {9000005: 3.} 
 set run_card use_syst = False
-set alppars 3 1.0
-set alppars 4 0.0
-
-#launch
-#shower=Pythia8
-#set run_card pt_min_pdg = {9000005: 50.}
-#set run_card use_syst = False
-#set alppars 3 0.0
-#set alppars 4 1.0
-
-#launch
-#shower=Pythia8
-#set run_card pt_min_pdg = {9000005: 50.}
-#set run_card use_syst = False
-#set alppars 3 1.0
-#set alppars 4 1.0
-
-#launch
-#shower=Pythia8
-#set run_card pt_min_pdg = {9000005: 50.}
-#set run_card use_syst = False
-#set alppars 3 0.2336991334218244
-#set alppars 4 -0.7663008665781756
-
-#launch
-#shower=Pythia8
-#set run_card pt_min_pdg = {9000005: 50.}
-#set run_card use_syst = False
-#set alppars 4 0.2336991334218244
-#set alppars 3 -0.7663008665781756
-
+# normalized to -alpha_2/4pi
+set alppars 3 -2.66233E-3
+# normalized to -alpha_1/4pi
+set alppars 4 -0.811933E-3

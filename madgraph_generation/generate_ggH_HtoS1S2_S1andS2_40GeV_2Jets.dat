@@ -39,7 +39,7 @@ add process p p > h j j, (h > SS1 SS2)
 #we force h decay to two different real scalar SS1 and SS2.
 #SS1 decay to a pair of bottom quark, while SS2 is forced to decay to neutrino pair and recognized as missing energy by Pythia. When using the model, be sure to set SS1 and SS2 mass equal in the parameter card "param_card.dat". SS1 can also decay to other light flavor quarks, if want to. Here we focus on SS1 decay to bottom quark according to the typical Yukawa coupling.
 # Output processes to MadEvent directory
-output htoS1S2/htoS1S2_2j_pythia
+output llp_gen/madgraph_pythia
 
 # This will create a directory PROC_$MODELNAME_$X
 # If you want to specify the path/name of the directory use
