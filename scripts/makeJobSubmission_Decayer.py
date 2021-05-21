@@ -31,6 +31,8 @@ for datasetName in datasetList.keys():
     #####################################
     #print ("cat " + Base_DIR + "/condor/" + datasetName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory + "\//'" +  " > " + Base_DIR + "/condor/" + datasetName + "/run_job.sh")
     os.system("mkdir -p " + Base_DIR + "/condor/" + datasetName + "/log/" )
+    os.system("mkdir -p " + Base_DIR + "/condor/" + datasetName + "/out/" )
+    os.system("mkdir -p " + Base_DIR + "/condor/" + datasetName + "/err/" )
     os.system("cp " + Base_DIR + "/scripts/run_decayer_job_caltech_tier2.sh " +  Base_DIR + "/condor/" + datasetName + "/run_template.sh")
     os.system("cat " + Base_DIR + "/condor/" + datasetName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile.replace("/","\/") + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory.replace("/","\/") + "\//'" +  " > " + Base_DIR + "/condor/" + datasetName + "/run_job.sh")
   
