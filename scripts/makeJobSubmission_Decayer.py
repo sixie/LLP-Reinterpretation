@@ -15,7 +15,50 @@ Base_DIR = "/storage/user/sixie/LLP-Reinterpretation/"
 tarballfile = "/storage/user/sixie/LLP-Reinterpretation/tarball/Decayer_Delphes_tarball.tgz"
 
 datasetList = OrderedDict()
-datasetList['ggH_HtoS1S2_S1andS2_55GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_55dot0_AllToTauTau.txt",500]
+datasetList['ggH_HtoS1S2_S1andS2_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot1.txt", 500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot26.txt", 500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot3.txt", 500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot5.txt", 500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_1dot0.txt", 500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_3dot0.txt", 500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot1.txt",500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot3.txt",500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot6.txt",500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot8.txt",500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_1dot0.txt",500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_1dot5.txt",500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_3dot25.txt",500]]
+datasetList['ggH_HtoS1S2_S1andS2_7GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_7dot0.txt", 500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_7dot0.txt",500]]
+datasetList['ggH_HtoS1S2_S1andS2_15GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_15dot0.txt", 500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_15dot0.txt",500]]
+datasetList['ggH_HtoS1S2_S1andS2_25GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_25dot0.txt", 500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_25dot0.txt",500]]
+datasetList['ggH_HtoS1S2_S1andS2_40GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_40dot0.txt", 500],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_40dot0.txt",500]]
+datasetList['ggH_HtoS1S2_S1andS2_55GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_55dot0_AllToTauTau.txt",500],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_55dot0.txt",500],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_55dot0.txt",500]]
+datasetList['ggalp_1GeV_3Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot52.txt",500],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot67.txt",500],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot82.txt",500],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot97.txt",500],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot32.txt",500],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot62.txt",500],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_2dot02.txt",500],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_2dot47.txt",500],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_3dot0.txt",500]]
+datasetList['walp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+datasetList['zalp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+datasetList['zalp_0W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+datasetList['zalp_1W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+datasetList['zalp_1Wm1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+datasetList['gammaalp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+datasetList['gammaalp_0W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+datasetList['gammaalp_1W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+datasetList['gammaalp_1Wm1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+
 #datasetList['ggH_HtoS1S2_S1andS2_1GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_1dot0.txt",500]
 #datasetList['ggH_HtoS1S2_S1andS2_15GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_15dot0.txt",500]
 #datasetList['ggH_HtoS1S2_S1andS2_25GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_25dot0.txt",500]
@@ -32,43 +75,47 @@ datasetList['ggH_HtoS1S2_S1andS2_55GeV_2Jets'] = ["/storage/user/sixie/LLP-Reint
 
 for datasetName in datasetList.keys():
     
-    print "Preparing workflow for dataset :" + datasetName + "\n"
-   
-    outputDirectory = outputDirectoryBase + "/" + datasetName + "/"  
-    decayTableFile = datasetList[datasetName][0]
-    numberOfJobs = datasetList[datasetName][1] 
+    for elem in datasetList[datasetName]:
+        decayTableName = elem[0].split('/')[-1].split('.')[0]
 
-    #####################################
-    #create run script and executable
-    #####################################
-    #print ("cat " + Base_DIR + "/condor/" + datasetName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory + "\//'" +  " > " + Base_DIR + "/condor/" + datasetName + "/run_job.sh")
-    os.system("mkdir -p " + Base_DIR + "/condor/" + datasetName + "/log/" )
-    os.system("mkdir -p " + Base_DIR + "/condor/" + datasetName + "/out/" )
-    os.system("mkdir -p " + Base_DIR + "/condor/" + datasetName + "/err/" )
-    os.system("cp " + Base_DIR + "/scripts/run_decayer_job_caltech_tier2.sh " +  Base_DIR + "/condor/" + datasetName + "/run_template.sh")
-    os.system("cat " + Base_DIR + "/condor/" + datasetName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile.replace("/","\/") + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory.replace("/","\/") + "\//'" +  " > " + Base_DIR + "/condor/" + datasetName + "/run_job.sh")
-  
-    #####################################
-    #Create Condor JDL file
-    #####################################
-    tmpCondorJDLFile = open(Base_DIR + "/condor/" + datasetName + "/task.jdl","w+")
-    tmpCondorJDLFileTemplate = """
+        print "Preparing workflow for dataset :" + datasetName + " and decay " + decayTableName + "\n"
+    
+        subDirName = datasetName + "_" decayTableName
+        outputDirectory = outputDirectoryBase + "/" + subDirName + "/"  
+        decayTableFile = elem[0]
+        numberOfJobs = elem[1] 
+
+        #####################################
+        #create run script and executable
+        #####################################
+        #print ("cat " + Base_DIR + "/condor/" + subDirName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory + "\//'" +  " > " + Base_DIR + "/condor/" + subDirName + "/run_job.sh")
+        os.system("mkdir -p " + Base_DIR + "/condor/" + subDirName + "/log/" )
+        os.system("mkdir -p " + Base_DIR + "/condor/" + subDirName + "/out/" )
+        os.system("mkdir -p " + Base_DIR + "/condor/" + subDirName + "/err/" )
+        os.system("cp " + Base_DIR + "/scripts/run_decayer_job_caltech_tier2.sh " +  Base_DIR + "/condor/" + subDirName + "/run_template.sh")
+        os.system("cat " + Base_DIR + "/condor/" + subDirName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile.replace("/","\/") + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory.replace("/","\/") + "\//'" +  " > " + Base_DIR + "/condor/" + subDirName + "/run_job.sh")
+    
+        #####################################
+        #Create Condor JDL file
+        #####################################
+        tmpCondorJDLFile = open(Base_DIR + "/condor/" + subDirName + "/task.jdl","w+")
+        tmpCondorJDLFileTemplate = """
 Universe  = vanilla
 Executable = ./run_job.sh
 """
-    tmpCondorJDLFile.write(tmpCondorJDLFileTemplate)
-    tmpCondorJDLFile.write("Arguments = $(I)" + "\n")
+        tmpCondorJDLFile.write(tmpCondorJDLFileTemplate)
+        tmpCondorJDLFile.write("Arguments = $(I)" + "\n")
 
-    tmpCondorJDLFileTemplate = """
+        tmpCondorJDLFileTemplate = """
 Log = log/job.$(Cluster).$(Process).log
 Output = out/job.$(Cluster).$(Process).out
 Error = err/job.$(Cluster).$(Process).err
 x509userproxy = $ENV(X509_USER_PROXY)
 """
-    tmpCondorJDLFile.write(tmpCondorJDLFileTemplate)
-    tmpCondorJDLFile.write("Transfer_Input_Files = " + tarballfile + ", " + Base_DIR + "/condor/" + datasetName + "/run_job.sh " + "\n")
+        tmpCondorJDLFile.write(tmpCondorJDLFileTemplate)
+        tmpCondorJDLFile.write("Transfer_Input_Files = " + tarballfile + ", " + Base_DIR + "/condor/" + subDirName + "/run_job.sh " + "\n")
 
-    tmpCondorJDLFileTemplate = """
+        tmpCondorJDLFileTemplate = """
 Should_Transfer_Files = YES
 WhenToTransferOutput = ON_EXIT
 Requirements=(TARGET.OpSysAndVer=="CentOS7" && regexp("blade.*", TARGET.Machine))
@@ -82,17 +129,17 @@ RequestDisk = 4
 
 
 """
-    tmpCondorJDLFile.write(tmpCondorJDLFileTemplate)
+        tmpCondorJDLFile.write(tmpCondorJDLFileTemplate)
 
-    tmpCondorJDLFileTemplate = """
+        tmpCondorJDLFileTemplate = """
 
 # Jobs selection
 Queue I from (
 """
 
-    tmpCondorJDLFile.write(tmpCondorJDLFileTemplate)
-    for i in range(0,numberOfJobs):
-        tmpCondorJDLFile.write(str(i)+"\n")
-    tmpCondorJDLFile.write(")\n")
-    tmpCondorJDLFile.close()
+        tmpCondorJDLFile.write(tmpCondorJDLFileTemplate)
+        for i in range(0,numberOfJobs):
+            tmpCondorJDLFile.write(str(i)+"\n")
+        tmpCondorJDLFile.write(")\n")
+        tmpCondorJDLFile.close()
 
