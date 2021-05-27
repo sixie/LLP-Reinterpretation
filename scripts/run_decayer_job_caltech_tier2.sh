@@ -9,6 +9,8 @@ echo "JobNumber : ${jobNumber}"
 echo "modelName : ${modelName}"
 echo "Decay Table file: ${decayTable}"
 
+mkdir -p ${outputDir}
+
 
 #######################
 #debugging purposes
