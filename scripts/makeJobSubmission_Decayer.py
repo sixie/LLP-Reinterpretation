@@ -96,7 +96,7 @@ for datasetName in datasetList.keys():
         os.system("mkdir -p " + Base_DIR + "/condor/" + subDirName + "/out/" )
         os.system("mkdir -p " + Base_DIR + "/condor/" + subDirName + "/err/" )
         os.system("cp " + Base_DIR + "/scripts/run_decayer_job_caltech_tier2.sh " +  Base_DIR + "/condor/" + subDirName + "/run_template.sh")
-        os.system("cat " + Base_DIR + "/condor/" + subDirName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile.replace("/","\/") + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory.replace("/","\/") + "\//'" + " | sed 's/XX_DELPHESCARD_XX/" + delphesCard + "\//'" +  " > " + Base_DIR + "/condor/" + subDirName + "/run_job.sh")
+        os.system("cat " + Base_DIR + "/condor/" + subDirName + "/run_template.sh" + " | sed 's/XX_MODELNAME_XX/" + datasetName + "/g' " + " | sed 's/XX_DECAYTABLE_XX/" + decayTableFile.replace("/","\/") + "/'" + " | sed 's/XX_OUTPUTDIR_XX/" + outputDirectory.replace("/","\/") + "\//'" + " | sed 's/XX_DELPHESCARD_XX/" + delphesCard + "/'" +  " > " + Base_DIR + "/condor/" + subDirName + "/run_job.sh")
     
         #####################################
         #Create Condor JDL file
