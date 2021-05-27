@@ -15,60 +15,61 @@ Base_DIR = "/storage/user/sixie/LLP-Reinterpretation/"
 tarballfile = "/storage/user/sixie/LLP-Reinterpretation/tarball/Decayer_Delphes_tarball.tgz"
 
 datasetList = OrderedDict()
-datasetList['ggH_HtoS1S2_S1andS2_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot1.txt", 500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot26.txt", 500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot3.txt", 500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot5.txt", 500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_1dot0.txt", 500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_3dot0.txt", 500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot1.txt",500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot3.txt",500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot6.txt",500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot8.txt",500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_1dot0.txt",500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_1dot5.txt",500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_3dot25.txt",500]]
-datasetList['ggH_HtoS1S2_S1andS2_7GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_7dot0.txt", 500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_7dot0.txt",500]]
-datasetList['ggH_HtoS1S2_S1andS2_15GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_15dot0.txt", 500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_15dot0.txt",500]]
-datasetList['ggH_HtoS1S2_S1andS2_25GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_25dot0.txt", 500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_25dot0.txt",500]]
-datasetList['ggH_HtoS1S2_S1andS2_40GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_40dot0.txt", 500],
-                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_40dot0.txt",500]]
-datasetList['ggH_HtoS1S2_S1andS2_55GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_55dot0_AllToTauTau.txt",500],
-                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_55dot0.txt",500],
-                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_55dot0.txt",500]]
-datasetList['ggalp_1GeV_3Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500],
-                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot52.txt",500],
-                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot67.txt",500],
-                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot82.txt",500],
-                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot97.txt",500],
-                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot32.txt",500],
-                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot62.txt",500],
-                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_2dot02.txt",500],
-                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_2dot47.txt",500],
-                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_3dot0.txt",500]]
-datasetList['walp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
-datasetList['zalp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
-datasetList['zalp_0W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
-datasetList['zalp_1W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
-datasetList['zalp_1Wm1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
-datasetList['gammaalp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
-datasetList['gammaalp_0W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
-datasetList['gammaalp_1W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
-datasetList['gammaalp_1Wm1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+ datasetList['ggH_HtoS1S2_S1andS2_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot1.txt", 247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot26.txt", 247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot3.txt", 247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_0dot5.txt", 247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_1dot0.txt", 247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_3dot0.txt", 247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot1.txt",247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot3.txt",247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot6.txt",247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_0dot8.txt",247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_1dot0.txt",247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_1dot5.txt",247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_3dot25.txt",247]]
+datasetList['ggH_HtoS1S2_S1andS2_7GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_7dot0_AllToTauTau.txt",246],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_7dot0.txt", 246],
+                                                 ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_7dot0.txt",246]]
+]
 
-#datasetList['ggH_HtoS1S2_S1andS2_1GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_1dot0.txt",500]
-#datasetList['ggH_HtoS1S2_S1andS2_15GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_15dot0.txt",500]
-#datasetList['ggH_HtoS1S2_S1andS2_25GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_25dot0.txt",500]
-#datasetList['ggH_HtoS1S2_S1andS2_40GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_40dot0.txt",500]
-#datasetList['ggH_HtoS1S2_S1andS2_7GeV_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
-#datasetList['walp_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
-#datasetList['zalp_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
-#datasetList['gammaalp_2Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
-#datasetList['ggalp_3Jets'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
-#datasetList['vv_vv'] = ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/",500]
+datasetList['ggH_HtoS1S2_S1andS2_15GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_15dot0_AllToTauTau.txt", 247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_15dot0.txt", 247],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_15dot0.txt",247]
+                                              ]
+
+datasetList['ggH_HtoS1S2_S1andS2_25GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_25dot0.txt", 500],
+                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_25dot0.txt",500]]
+datasetList['ggH_HtoS1S2_S1andS2_40GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_40dot0_AllToTauTau.txt", 10]
+
+#["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_40dot0.txt", 500],
+#                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_40dot0.txt",500]
+]
+datasetList['ggH_HtoS1S2_S1andS2_55GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_55dot0_AllToTauTau.txt",10]
+                                                  #,
+#                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_55dot0.txt",500],
+#                                                  ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_55dot0.txt",500]
+]
+# datasetList['ggalp_1GeV_3Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500],
+#                                    ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot52.txt",500],
+#                                    ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot67.txt",500],
+#                                    ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot82.txt",500],
+#                                    ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot97.txt",500],
+#                                    ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot32.txt",500],
+#                                    ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot62.txt",500],
+#                                    ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_2dot02.txt",500],
+#                                    ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_2dot47.txt",500],
+#                                    ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_3dot0.txt",500]]
+# datasetList['walp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+# datasetList['zalp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+# datasetList['zalp_0W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+# datasetList['zalp_1W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+# datasetList['zalp_1Wm1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+# datasetList['gammaalp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+# datasetList['gammaalp_0W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+# datasetList['gammaalp_1W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+# datasetList['gammaalp_1Wm1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500]]
+
 
 
 
@@ -80,7 +81,7 @@ for datasetName in datasetList.keys():
 
         print "Preparing workflow for dataset :" + datasetName + " and decay " + decayTableName + "\n"
     
-        subDirName = datasetName + "_" decayTableName
+        subDirName = datasetName + "_" + decayTableName
         outputDirectory = outputDirectoryBase + "/" + subDirName + "/"  
         decayTableFile = elem[0]
         numberOfJobs = elem[1] 
