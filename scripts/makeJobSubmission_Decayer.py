@@ -55,25 +55,44 @@ datasetList['ggH_HtoS1S2_S1andS2_55GeV_2Jets'] = [["/storage/af/user/sixie/LLP-R
                                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_55dot0.txt",250, DELPHESCARD_HIGGS]
 ]
 
-datasetList['ggalp_1GeV_3Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",22, DELPHESCARD_ALP],
-                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot52.txt",22, DELPHESCARD_ALP],
-                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot67.txt",22, DELPHESCARD_ALP],
-                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot82.txt",22, DELPHESCARD_ALP],
-                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot97.txt",22, DELPHESCARD_ALP],
-                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot32.txt",22, DELPHESCARD_ALP],
-                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot62.txt",22, DELPHESCARD_ALP],
-                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_2dot02.txt",22, DELPHESCARD_ALP],
-                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_2dot47.txt",22, DELPHESCARD_ALP],
-                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_3dot0.txt",22, DELPHESCARD_ALP]]
-datasetList['walp_1W0B_1GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",43, DELPHESCARD_ALP]]
-datasetList['zalp_1W0B_1GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",42, DELPHESCARD_ALP]]
-datasetList['zalp_0W1B_1GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",41, DELPHESCARD_ALP]]
-datasetList['zalp_1W1B_1GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",42, DELPHESCARD_ALP]]
-datasetList['zalp_1Wm1B_1GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",42, DELPHESCARD_ALP]]
-datasetList['gammaalp_1W0B_1GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",41, DELPHESCARD_ALP]]
-datasetList['gammaalp_0W1B_1GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",17, DELPHESCARD_ALP]]
-datasetList['gammaalp_1W1B_1GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",41, DELPHESCARD_ALP]]
-datasetList['gammaalp_1Wm1B_1GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",41, DELPHESCARD_ALP]]
+datasetList['ggalp_1GeV_3Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot32.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot52.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot57.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot52.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot67.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot72.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot77.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot82.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot87.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot92.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot97.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot02.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot07.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot22.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot32.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot47.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_1dot62.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_2dot02.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_2dot47.txt",22, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_3dot0.txt",22, DELPHESCARD_ALP]]
+datasetList['ggalp_5GeV_3Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_4dot0.txt",43, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_5dot0.txt",43, DELPHESCARD_ALP]]
+datasetList['ggalp_7GeV_3Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_6dot0.txt",42, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_7dot0.txt",42, DELPHESCARD_ALP],
+                                   ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_8dot0.txt",42, DELPHESCARD_ALP]]
+datasetList['ggalp_10GeV_3Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_9dot0.txt",42, DELPHESCARD_ALP],
+                                    ["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_10dot0.txt",42, DELPHESCARD_ALP]]
+datasetList['walp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",43, DELPHESCARD_ALP]]
+datasetList['zalp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",42, DELPHESCARD_ALP]]
+datasetList['zalp_0W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",41, DELPHESCARD_ALP]]
+datasetList['zalp_1W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",42, DELPHESCARD_ALP]]
+datasetList['zalp_1Wm1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",42, DELPHESCARD_ALP]]
+datasetList['gammaalp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",41, DELPHESCARD_ALP]]
+datasetList['gammaalp_0W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",17, DELPHESCARD_ALP]]
+datasetList['gammaalp_1W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",41, DELPHESCARD_ALP]]
+datasetList['gammaalp_1Wm1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",41, DELPHESCARD_ALP]]
+
 
 
 
