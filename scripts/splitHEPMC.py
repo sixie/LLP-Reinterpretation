@@ -47,7 +47,7 @@ for line in inputfile:
     if line[:2] == "E ":
         #found Event line
 
-        print (str(currentFileEventIndex) + " " + str(maxNEvents) + " | " + str((currentFileEventIndex+1 >= maxNEvents)))
+        #print (str(currentFileEventIndex) + " " + str(maxNEvents) + " | " + str((currentFileEventIndex+1 >= maxNEvents)))
 
         if (currentFileEventIndex+1 >= maxNEvents):
 
@@ -71,7 +71,8 @@ for line in inputfile:
             inputEventIndex = inputEventIndex + 1
             currentFileEventIndex = currentFileEventIndex + 1
     
-        print("Writing Event " + str(currentFileEventIndex))
+        if (currentFileEventIndex % 100 == 0):
+            print("Writing Event " + str(currentFileEventIndex))
 
         #write event line, but replace original event counter by the current file event counter
         eventLineList = line.split(" ")
@@ -83,7 +84,7 @@ for line in inputfile:
                 newEventLine = newEventLine + eventLineList[i]
             else :
                 newEventLine = newEventLine + eventLineList[i] + " "
-        print (eventLineList)
+        #print (eventLineList)
         tempOutputfile.write(newEventLine)
 
     else :
