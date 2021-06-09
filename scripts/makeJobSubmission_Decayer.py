@@ -88,6 +88,8 @@ datasetList['gammaalp_1W0B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpret
 datasetList['gammaalp_0W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500, DELPHESCARD_ALP]]
 datasetList['gammaalp_1W1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500, DELPHESCARD_ALP]]
 datasetList['gammaalp_1Wm1B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500, DELPHESCARD_ALP]]
+datasetList['gammaalp_1Wtm2B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500, DELPHESCARD_ALP]]
+datasetList['zalp_1Wtm2B_1GeV_2Jets'] = [["/storage/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",500, DELPHESCARD_ALP]]
 
 
 
