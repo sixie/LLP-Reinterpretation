@@ -55,6 +55,14 @@ datasetList['ggH_HtoS1S2_S1andS2_55GeV_2Jets'] = [["/storage/af/user/sixie/LLP-R
                                                   ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_55dot0.txt",250, DELPHESCARD_HIGGS]
 ]
 
+datasetList['ggH_HtoS1S2_S1andS2_5GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_5dot0.txt", 250, DELPHESCARD_HIGGS],
+                                                 ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_5dot0.txt",250, DELPHESCARD_HIGGS]
+]
+
+datasetList['ggH_HtoS1S2_S1andS2_3dto5GeV_2Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/Scalar/phi/phi_3dot5.txt", 250, DELPHESCARD_HIGGS],
+                                                 ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/Vectors/dark_photon/dark_photon_3dot5.txt",250, DELPHESCARD_HIGGS]
+]
+
 datasetList['ggalp_1GeV_3Jets'] = [["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot07.txt",22, DELPHESCARD_ALP],
                                    ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot32.txt",22, DELPHESCARD_ALP],
                                    ["/storage/af/user/sixie/LLP-Reinterpretation/branchingRatios/ALPs/ALPGG_0dot52.txt",22, DELPHESCARD_ALP],
