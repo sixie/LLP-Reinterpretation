@@ -1,0 +1,55 @@
+#************************************************************
+#*                        MadGraph 5                        *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*    The MadGraph Development Team - Please visit us at    *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadGraph 5                *
+#*                                                          *
+#*     run as ./bin/mg5  filename                           *
+#*                                                          *
+#************************************************************
+import model 2HDM_NLO
+# Define multiparticle labels
+define p = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+
+define l- = e- mu-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+# Specify process(es) to run
+generate g g > h1 h1 h1 [QCD] / h3
+# Output processes to MadEvent directory
+output llp_gen/madgraph_pythia
+
+# This will create a directory PROC_$MODELNAME_$X
+# If you want to specify the path/name of the directory use
+# output PATH
+
+# To generate events, you can go to the created directory and
+
+# run ./bin/generate_events
+
+launch
+shower=Pythia8
+set nevents 80000
+set mass 9000005 1.
+set run_card xqcut = 25.
+set run_card pt_min_pdg = {9000005: 100.}
+set run_card eta_max_pdg = {9000005: 3.} 
+set run_card use_syst = False
+# normalized to -alpha_s/(4pi)
+set alppars 2 -9.42197E-3 
+set mh1 125.0
+set mh2 400.0 #should automatically set mh3, mhc
+set mixh 0.100167
+set Wh2 Auto
