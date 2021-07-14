@@ -90,6 +90,6 @@ set glr3x1 0.0
 set glr3x2 0.0
 set glr3x3 0.0
 
-set Wh2 Auto
-set Wh3 Auto
-set Whc Auto
+#set Wh2 Auto
+#set Wh3 Auto
+#set Whc Auto
