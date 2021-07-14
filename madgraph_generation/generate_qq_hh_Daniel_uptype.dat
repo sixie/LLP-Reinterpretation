@@ -1,0 +1,99 @@
+#************************************************************
+#*                        MadGraph 5                        *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*    The MadGraph Development Team - Please visit us at    *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadGraph 5                *
+#*                                                          *
+#*     run as ./bin/mg5  filename                           *
+#*                                                          *
+#************************************************************
+
+import model /storage/af/user/jmina/LLP-Reinterpretation/madgraph_models/SFV_2HDM_uptype
+# Define multiparticle labels
+define p = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+
+define l- = e- mu-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+# Specify process(es) to run
+generate d d~ > h1 h1 NP=99
+output ~/LLP-Reinterpretation_07_14/qq_hh_Daniel
+
+launch
+#shower=OFF
+#analysis=OFF
+madspin=OFF
+reweight=OFF
+set nevents 1000
+set use_syst False
+
+#set run_card gridpack = True
+set l2 0.0
+set l3 0.0
+set lR7 0.0
+#set li7 0.0
+
+set cosbma 0.1
+set xi 0.0
+
+#set mixh 0.3
+#set mixh2 0.0
+#set mixh3 0.0
+
+set mh1 125.0
+set mh2 500.0
+set mh3 500.0
+set mhc 500.0
+
+set GDR1x1 0.1 #yukawa to dd
+#set GDR1x2 0.0
+#set GDR1x3 0.0
+
+#set GDR2x1 0.0
+set GDR2x2 0.0
+#set GDR2x3 0.0
+
+#set GDR3x1 0.0
+#set GDR3x2 0.0
+set GDR3x3 0.0
+
+
+#set GU1x1 0.0
+#set gur1x2 0.0
+#set gur1x3 0.0
+
+#set gur2x1 0.0
+#set GU2x2 0.0
+#set gur2x3 0.0
+
+#set gur3x1 0.0
+#set gur3x2 0.0
+#set GU3x3 0.0
+
+#set GL1x1 0.0
+#set glr1x2 0.0
+#set glr1x3 0.0
+
+#set glr2x1 0.0
+#set GL2x2 0.0
+#set glr2x3 0.0
+
+#set glr3x1 0.0
+#set glr3x2 0.0
+#set GL3x3 0.0
+
+#set Wh2 Auto
+#set Wh3 Auto
+#set Whc Auto
