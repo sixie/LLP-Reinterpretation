@@ -10,10 +10,10 @@ fi
 #get and install Madgraph5
 ###################
 current_dir=$PWD
-wget https://launchpad.net/mg5amcnlo/2.0/2.9.x/+download/MG5_aMC_v2.9.3.tar.gz
-tar -zxvf MG5_aMC_v2.9.3.tar.gz
-rm MG5_aMC_v2.9.3.tar.gz
-cd MG5_aMC_v2_9_3
+wget https://launchpad.net/mg5amcnlo/2.0/2.7.x/+download/MG5_aMC_v2.7.3.tar.gz
+tar -zxvf MG5_aMC_v2.7.3.tar.gz
+rm MG5_aMC_v2.7.3.tar.gz
+cd MG5_aMC_v2_7_3
 python2 ./bin/mg5_aMC ${current_dir}/install_scripts/madgraph_install.dat
 cd $current_dir
 #####################
@@ -22,7 +22,7 @@ cd $current_dir
 top_dir=`git rev-parse --show-toplevel`
 echo ${top_dir}
 #my_pythia8=/storage/user/cpena/work/new_installation_reinterpret/LLP-Reinterpretation/MG5_aMC_v2_9_3/HEPTools/pythia8/
-my_pythia8=${top_dir}/MG5_aMC_v2_9_3/HEPTools/pythia8/
+my_pythia8=${top_dir}/MG5_aMC_v2_7_3/HEPTools/pythia8/
 echo ${my_pythia8}
 export PYTHIA8DATA=${my_pythia8}/share/Pythia8/xmldoc
 echo $PYTHIA8DATA
